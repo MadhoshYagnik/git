@@ -27,3 +27,5 @@ To display only the name of the current branch you're on:
 
 git rev-parse --abbrev-ref HEAD
 -----------------------------------------------------------------------------------------------------------------------------------
+
+Merged branch main into test, was supposed to do the opposite, trying again.
