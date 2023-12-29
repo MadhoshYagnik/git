@@ -1,5 +1,3 @@
-Absolutely! Let's dive into each of these Git commands in detail:
-
 ### Tagging
 
 #### Create a Tag
