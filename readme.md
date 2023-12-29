@@ -24,6 +24,12 @@ git pull origin main
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
+To display only the name of the current branch you're on:
+
+git rev-parse --abbrev-ref HEAD
+
+------------------------------------------------------------------------------------------------------------------------------------
+
 ### Working with Local and Remote Repositories
 
 #### Clone a Repository
