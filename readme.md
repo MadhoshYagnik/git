@@ -23,19 +23,21 @@ Pull changes from main:
 git pull origin main
 
 ------------------------------------------------------------------------------------------------------------------------------------
-To display only the name of the current branch you're on:
 
-<<<<<<< HEAD
-git rev-parse --abbrev-ref HEAD
------------------------------------------------------------------------------------------------------------------------------------
-=======
 To display only the name of the current branch you're on:
 
 git rev-parse --abbrev-ref HEAD
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-### Working with Local and Remote Repositories
->>>>>>> main
+To display only the name of the current branch you're on:
+
+git rev-parse --abbrev-ref HEAD
+
+------------------------------------------------------------------------------------------------------------------------------------
+To display only the name of the current branch you're on:
+
+git rev-parse --abbrev-ref HEAD
+-----------------------------------------------------------------------------------------------------------------------------------
 
 Merged branch main into test, was supposed to do the opposite, trying again.
