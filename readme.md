@@ -164,3 +164,49 @@ git reflog
 #### Set Up Hooks
 
 Hooks are custom scripts placed in `.git/hooks` directory and named accordingly (pre-commit, post-commit, etc.). There's no direct GitHub command for this; it's a local configuration.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Resolve Merge Conflicts
+
+#### Step 1: Identify Conflicts
+
+```bash
+# Checkout the branch where the merge is happening
+git checkout <your_branch>
+
+# Start the merge
+git merge <branch_to_merge>
+
+# You'll see a message about conflicts
+
+# Identify conflicted files
+git status
+```
+
+#### Step 2: Manually Resolve Conflicts
+
+Open the conflicted files in your code editor. You'll see markers indicating the conflicting changes. Manually edit the files to keep the desired changes and remove conflict markers (<<<<<<<, =======, >>>>>>>).
+
+#### Step 3: Add Resolved Changes
+
+```bash
+# After resolving conflicts, add the modified files
+git add <conflicted_files>
+```
+
+#### Step 4: Commit Changes
+
+```bash
+# Commit the resolved changes
+git commit -m "Resolved merge conflicts"
+```
+
+#### Step 5: Complete the Merge
+
+```bash
+# Complete the merge
+git merge --continue
+```
