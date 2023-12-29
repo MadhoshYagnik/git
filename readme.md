@@ -18,3 +18,7 @@ Your feedback, suggestions, or corrections are highly appreciated! If you spot a
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
+Pull changes from main:
+
+git pull origin main
+
